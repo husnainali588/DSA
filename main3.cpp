@@ -2,6 +2,9 @@
 using namespace std;
 
 int main() {
+
+    //nth word reverse in a string
+    
     string str = "my name is husnain";
     str += " ";
     int n = str.length();
