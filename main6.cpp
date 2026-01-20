@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//Reverse each word in string
+//Reverse words in sentence
 
 int main() {
 
