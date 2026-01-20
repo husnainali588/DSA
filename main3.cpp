@@ -1,32 +1,23 @@
 #include <iostream>
 using namespace std;
 
+//removes duplicates
+
 int main() {
-
-    //nth word reverse in a string
     
-    string str = "my name is husnain";
-    str += " ";
+    string str = "husnain";
     int n = str.length();
-    int count = 0;
-    int num;
+    bool check = false;
 
-    cout << "Enter word no: " << endl;
-    cin >> num;
-    
-    int i = 0; 
-    for (int j = 0; j < n; j++) {
-        if (str[j] == ' ') {
-            count++;
-
-            if (count == num) {
-                for (int k = j - 1; k >= i; k--) {
-                    cout << str[k];
-                }
-                return 0;
+    for(int i=0; i<n; i++){
+        check = false;
+        for(int j=i+1; j<n; j++){
+            if(str[i]==str[j]){
+                check=true;
             }
-
-            i = j + 1;
+            if(check==false){
+                cout<<str[i];
+            }
         }
     }
 

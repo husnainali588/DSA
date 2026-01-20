@@ -1,25 +1,30 @@
 #include <iostream>
 using namespace std;
 
-//Reverse each word in string
+//Checking if a string is palindrome
 
 int main() {
-
-    string str = "my name is husnain";
-    str+= " ";
-    int n = str.length();
     
-    for(int i=0; i<n; i++){
-        for(int j=i; j<n; j++){
-            if(str[j]==' '){
-                for(int k=j-1;k>=i;k--){
-                    cout<<str[k];
-                }
-                cout<<" ";
-                i=j+1;
-            }
-        }
+    string str = "racecar";
+    int n = str.length();
+    int i = 0;
+    int j = n-1;
+
+    if (n < 2) {
+    cout<<"This is palindrome";
+    return 0;
     }
+
+    while(i<j){
+        if(str[i]!=str[j]){
+            cout<<"This is not palindrome";
+            return 0;
+        }
+        i++;
+        j--;
+    }
+
+    cout<<"This is palindrome";
 
     return 0;
 }
