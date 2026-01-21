@@ -2,7 +2,7 @@
 
 Welcome to my DSA practice repository! This repo contains my solutions to top programming interview questions, focusing on logic building, string manipulation, and optimizing time complexity.
 
-I am solving these using **JavaScript** to strengthen my problem-solving skills for backend and full-stack development roles.
+I am solving these using **C++** to strengthen my problem-solving skills.
 
 ## 📝 Problem List: Top String Interview Questions
 
