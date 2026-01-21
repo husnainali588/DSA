@@ -4,10 +4,10 @@ using namespace std;
 
 //find longest non repeating substring
 
-int NonRepeatingSubstring(string s){
+int NonRepeatingSubstring (string s) {
+    int left=0, maxLen=0;
     unordered_set<char> st;
-    int left = 0, maxLen = 0;
-
+    
     for(int right=0; right<s.length(); right++){
         while( st.find(s[right]) != st.end() ){
             st.erase(s[left]);
@@ -20,9 +20,9 @@ int NonRepeatingSubstring(string s){
     return maxLen;
 }
 
-int main() {
+int main () {
+    string s = "abcabcbb";
+    cout<< NonRepeatingSubstring(s);
 
-    cout<< NonRepeatingSubstring("abcabcbb");
-    
     return 0;
 }
