@@ -55,10 +55,7 @@ Below is the list of 25 essential string problems I am working through.
 ```
 
 ##👤 Author
-Husnain Ali
-
-Developer & Problem Solver
-
-Focused on Backend Engineering
-
-Created with ❤️ by Husnain Ali
+* **Husnain Ali**
+* Developer & Problem Solver
+* Focused on Backend Engineering
+* Created with ❤️ by Husnain Ali
