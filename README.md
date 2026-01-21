@@ -54,8 +54,8 @@ Below is the list of 25 essential string problems I am working through.
 └── README.md
 ```
 
-##👤 Author
-* **Husnain Ali**
+## 👤 Author
+**Husnain Ali**
 * Developer & Problem Solver
 * Focused on Backend Engineering
 * Created with ❤️ by Husnain Ali
