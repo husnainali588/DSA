@@ -27,7 +27,7 @@ int myAtoi(string s){
 
         i++;
     }
-    return (int)(result*sign);
+    return result*sign;
 }
 
 int main() {
