@@ -52,8 +52,9 @@ Below is the list of 25 essential string problems I am working through.
 │   └── ...
 ├── recursion/
 └── README.md
+```
 
-👤 Author
+##👤 Author
 Husnain Ali
 
 Developer & Problem Solver
