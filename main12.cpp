@@ -21,7 +21,7 @@ void printAllSubstrings(string s) {
 }
 
 int main() {
-    string input = "abc";
+    string input = "abcdef";
     cout << "All substrings of " << input << ":" << endl;
     printAllSubstrings(input);
     return 0;
