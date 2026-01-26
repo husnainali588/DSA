@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
+
+//check if a string is a shuffle of two strings
 
 bool isShuffle(string a, string b, string c) {
     // 1. Length Check
