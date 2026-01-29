@@ -4,14 +4,14 @@ using namespace std;
 //Removing all white spaces
 
 void removeSpaces(string &s) {
-    int count = 0;
-    for (int i = 0; i < s.length(); i++) {
-        if (s[i] != ' ') {
-            s[count] = s[i];
-            count++;
+    int left = 0;
+    for (int right = 0; right < s.length(); right++) {
+        if (s[right] != ' ') {
+            s[left] = s[right];
+            left++;
         }
     }
-    s.erase(count);
+    s.erase(left);
 }
 
 int main() {
